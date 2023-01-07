@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": false,
+    "target": "ES6",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "noEmitOnError": false,
+    "allowJs": false,
+    "importsNotUsedAsValues": "error",
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "lib": ["ES2020"],
+    "module": "CommonJS",
+    "sourceMap": true,
+    "composite": false,
+    "declaration": false,
+    "tsBuildInfoFile": "./lib/.tsbuildinfo",
+    "useUnknownInCatchVariables": false,
+    "types": ["node", "jest"]
+  },
+  "include": ["rules", "utils", "jest.config.ts"]
+}
